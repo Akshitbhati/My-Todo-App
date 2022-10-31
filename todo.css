@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Baloo Bhaina 2', cursive;
+  }
+  body{
+    background-color: rgb(36, 35, 35);
+  }
+   h1{
+    font-family: 'Baloo Bhaina 2', cursive;
+    text-align: center;
+    margin-top: 25px;
+  }
+  .input__container{
+    display: flex;
+    text-align: center;
+    background-color: rgb(67, 60, 60);
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#input__feild{
+    margin-right: 30px;
+    width: 70%;
+    padding: 5px;
+    color: black;
+    font-size:18px ;
+}
+#input__button{
+    padding: 5px;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 4px;
+}
+.todo{
+    width: 50%;
+    margin: auto;
+    background-color: rgb(67, 60, 60);
+   margin-top: 20px;
+}
+.li{
+    
+    overflow: scroll;    
+    border-bottom: 1px solid black; 
+}
+::-webkit-scrollbar{
+    height: 0px;
+}
+.complete, .delete{
+    background-color: orange;
+    color: white;
+    margin: 10px;
+    padding: 3px;
+    border-radius: 5px;
+    border: none;
+    height: 40px; 
+    margin-top: 20px;
+    justify-content: space-between;
+}
